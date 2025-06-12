@@ -1,0 +1,269 @@
+{
+    "customPostType": [],
+    "taxonomy": [],
+    "optionPage": [],
+    "meta": [
+        {
+            "id": "7382f702-eea6-417f-8ed4-eb28859109db",
+            "name": "group_name",
+            "label": "group name",
+            "display": "standard",
+            "UIName": "group name",
+            "belongs": [
+                {
+                    "id": "1cca7f37-0015-4bb8-b62d-eb42a6bcfcf9",
+                    "belongsTo": "POST_TEMPLATE",
+                    "operator": "=",
+                    "logic": "",
+                    "find": "page-templates\/acpt-builder-template.php"
+                }
+            ],
+            "fieldsCount": 1,
+            "boxes": [
+                {
+                    "id": "27f10907-5bee-4c3c-832a-93a88efa2454",
+                    "name": "builder",
+                    "label": "Builder",
+                    "UIName": "Builder",
+                    "groupId": "7382f702-eea6-417f-8ed4-eb28859109db",
+                    "sort": 1,
+                    "fields": [
+                        {
+                            "id": "b0b8224b-5f6e-42c9-928f-3e3d6a5accb1",
+                            "name": "sections",
+                            "label": "Sektionen",
+                            "type": "FlexibleContent",
+                            "group": "repeatable",
+                            "belongsToLabel": null,
+                            "findLabel": null,
+                            "defaultValue": "",
+                            "description": "",
+                            "showInArchive": false,
+                            "isRequired": false,
+                            "sort": 1,
+                            "options": [],
+                            "relations": [],
+                            "visibilityConditions": [],
+                            "validationRules": [],
+                            "advancedOptions": [
+                                {
+                                    "id": "74faa403-451a-4950-862f-9768408b919b",
+                                    "key": "headline",
+                                    "value": "top"
+                                },
+                                {
+                                    "id": "1a756e83-6a6d-47be-a307-91b085cea80b",
+                                    "key": "width",
+                                    "value": ""
+                                },
+                                {
+                                    "id": "7db66270-9583-4ec8-aacf-acbaa6755091",
+                                    "key": "columns",
+                                    "value": "1"
+                                },
+                                {
+                                    "id": "6f4d008f-65fd-4847-9f2b-1ceb8d3a611f",
+                                    "key": "minimum_blocks",
+                                    "value": ""
+                                },
+                                {
+                                    "id": "0bf69026-4997-4d14-a49c-bd87f0db174a",
+                                    "key": "maximum_blocks",
+                                    "value": ""
+                                },
+                                {
+                                    "id": "6e590bb1-1ae3-4a8d-bbe7-e68216d82196",
+                                    "key": "css",
+                                    "value": ""
+                                },
+                                {
+                                    "id": "87c874e8-31cf-495b-a18e-8d70c74a34c3",
+                                    "key": "leading_field",
+                                    "value": "79592aff-2250-43fa-b045-a8f1aeaa00c9"
+                                },
+                                {
+                                    "id": "986c09a7-02af-4f14-bc11-30769038f53d",
+                                    "key": "layout",
+                                    "value": "block"
+                                },
+                                {
+                                    "id": "ac020b98-a0a3-459f-9658-bb5d5c0d4bda",
+                                    "key": "vertical_alignment",
+                                    "value": "center"
+                                }
+                            ],
+                            "children": [],
+                            "blocks": [
+                                {
+                                    "id": "76ff7896-b3ed-4951-9b69-5d324a08edc3",
+                                    "groupId": "7382f702-eea6-417f-8ed4-eb28859109db",
+                                    "boxId": "27f10907-5bee-4c3c-832a-93a88efa2454",
+                                    "fieldId": "b0b8224b-5f6e-42c9-928f-3e3d6a5accb1",
+                                    "name": "hero",
+                                    "label": "Hero",
+                                    "sort": 1,
+                                    "fields": [
+                                        {
+                                            "id": "79592aff-2250-43fa-b045-a8f1aeaa00c9",
+                                            "name": "hero_heading",
+                                            "label": "\u00dcberschrift",
+                                            "type": "Text",
+                                            "group": "basic",
+                                            "belongsToLabel": null,
+                                            "findLabel": null,
+                                            "defaultValue": "",
+                                            "description": "",
+                                            "showInArchive": false,
+                                            "isRequired": false,
+                                            "sort": 1,
+                                            "options": [],
+                                            "relations": [],
+                                            "visibilityConditions": [],
+                                            "validationRules": [],
+                                            "advancedOptions": [
+                                                {
+                                                    "id": "564fc296-498e-49ee-acec-4914e731548d",
+                                                    "key": "headline",
+                                                    "value": "top"
+                                                },
+                                                {
+                                                    "id": "6ad18cdc-4f3e-49a6-823d-8577c0539a08",
+                                                    "key": "width",
+                                                    "value": ""
+                                                },
+                                                {
+                                                    "id": "28561048-f908-4c91-87c8-a6b6a1cc0ac6",
+                                                    "key": "before",
+                                                    "value": ""
+                                                },
+                                                {
+                                                    "id": "5691aba2-0d43-4897-984e-bca563a2b227",
+                                                    "key": "after",
+                                                    "value": ""
+                                                },
+                                                {
+                                                    "id": "eadcf929-dd93-41d4-95ed-105732a1d1c7",
+                                                    "key": "min",
+                                                    "value": ""
+                                                },
+                                                {
+                                                    "id": "e88b5609-a7eb-4d3a-b5d7-80d318e2b2c2",
+                                                    "key": "max",
+                                                    "value": ""
+                                                },
+                                                {
+                                                    "id": "4764b11d-6550-4bca-9140-ab0cf5951661",
+                                                    "key": "step",
+                                                    "value": ""
+                                                },
+                                                {
+                                                    "id": "76c92c87-cd61-4abe-bc90-edaf56d4c742",
+                                                    "key": "pattern",
+                                                    "value": ""
+                                                },
+                                                {
+                                                    "id": "9786e3c1-f133-4171-b19c-5fbeaa69f132",
+                                                    "key": "css",
+                                                    "value": ""
+                                                },
+                                                {
+                                                    "id": "72dd7e71-e301-4f01-8105-5dc156a2435e",
+                                                    "key": "vertical_alignment",
+                                                    "value": "center"
+                                                }
+                                            ],
+                                            "children": [],
+                                            "blocks": [],
+                                            "permissions": []
+                                        },
+                                        {
+                                            "id": "5821bde5-5a99-484c-8126-ec43ed38479c",
+                                            "name": "hero_subheading",
+                                            "label": "Unterschrift",
+                                            "type": "Text",
+                                            "group": "basic",
+                                            "belongsToLabel": null,
+                                            "findLabel": null,
+                                            "defaultValue": "",
+                                            "description": "",
+                                            "showInArchive": false,
+                                            "isRequired": false,
+                                            "sort": 2,
+                                            "options": [],
+                                            "relations": [],
+                                            "visibilityConditions": [],
+                                            "validationRules": [],
+                                            "advancedOptions": [],
+                                            "children": [],
+                                            "blocks": [],
+                                            "permissions": []
+                                        },
+                                        {
+                                            "id": "ea49b9f8-d70d-4060-bcd3-36f63fb74dd5",
+                                            "name": "image",
+                                            "label": "Bild",
+                                            "type": "Image",
+                                            "group": "media",
+                                            "belongsToLabel": null,
+                                            "findLabel": null,
+                                            "defaultValue": "",
+                                            "description": "",
+                                            "showInArchive": false,
+                                            "isRequired": false,
+                                            "sort": 3,
+                                            "options": [],
+                                            "relations": [],
+                                            "visibilityConditions": [],
+                                            "validationRules": [],
+                                            "advancedOptions": [],
+                                            "children": [],
+                                            "blocks": [],
+                                            "permissions": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "802a6298-882f-4f7a-8d0d-8e79e5c82f40",
+                                    "groupId": "7382f702-eea6-417f-8ed4-eb28859109db",
+                                    "boxId": "27f10907-5bee-4c3c-832a-93a88efa2454",
+                                    "fieldId": "b0b8224b-5f6e-42c9-928f-3e3d6a5accb1",
+                                    "name": "features",
+                                    "label": "Features",
+                                    "sort": 2,
+                                    "fields": [
+                                        {
+                                            "id": "ae9229ff-5179-4be2-8835-d95a8533abe1",
+                                            "name": "features_heading",
+                                            "label": "\u00dcberschrift",
+                                            "type": "Text",
+                                            "group": "basic",
+                                            "belongsToLabel": null,
+                                            "findLabel": null,
+                                            "defaultValue": "",
+                                            "description": "",
+                                            "showInArchive": false,
+                                            "isRequired": false,
+                                            "sort": 1,
+                                            "options": [],
+                                            "relations": [],
+                                            "visibilityConditions": [],
+                                            "validationRules": [],
+                                            "advancedOptions": [],
+                                            "children": [],
+                                            "blocks": [],
+                                            "permissions": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "permissions": []
+                        }
+                    ]
+                }
+            ],
+            "context": "normal",
+            "priority": "default"
+        }
+    ],
+    "form": []
+}
